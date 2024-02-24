@@ -1,5 +1,7 @@
 # equalize-objects-height
 
+![before](/images/equalize1.jpg "Blocks before equalization")
+
 Ever had been told by some UI/UX artist that these blog section blocks should have equal spaces between the title and excerpt despite the uneven amount of text content?
 
 The text content will be edited by the user and we want to give our client maximum freedom so we won't be setting a fixed height on our elements.
@@ -53,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 ## Examples
-Let's create some test section like this. See what's the problem here?
+Let's go back to the first image in this repo. See what's the problem here?
 
 ![before](/images/equalize1.jpg "Blocks before equalization")
 
