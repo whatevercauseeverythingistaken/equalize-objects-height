@@ -11,7 +11,7 @@ This is where this simple equalization script comes into play.
 * Very flexible and simple to use - uses data attributes and namespaces for controlling which elements should be equalized
 * Responsive if you want it - you can specify the minimum resolution required for the script to work on each namespace individually
 * Uses vanilla JS and is intended to be used in ES6 JS modules, no jQuery or any other dependency here
-* Takes object nesting into account, so you should't have problems with the order in which nested objects are equalized
+* Takes object nesting into account, so you shouldn't have problems with the order in which nested objects are equalized
 * Uses optimized array manipulation methods
 
 ## How to use
