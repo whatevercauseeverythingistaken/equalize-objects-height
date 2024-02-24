@@ -45,14 +45,26 @@ document.addEventListener('DOMContentLoaded', () => {
 'your-namespace' is the unique name used to determine which objects should be equalized. You can have as many namespaces and objects inside them as you like.
 
 ```html
-<div data-equalize-height="your-namespace"></div>
+<!-- Wrapper -->
+<div>
+    <div data-equalize-height="your-namespace">ele to be equalized 1</div>
+    <div data-equalize-height="your-namespace">ele to be equalized 2</div>
+    <div data-equalize-height="your-namespace">ele to be equalized 3</div>
+</div>
 ```
 
 4. Optionally - add the min resolution required for the equalization to take effect. Just add a resolution (in pixels) after a space when specifying the namespace.
 
 ```html
-<div data-equalize-height="your-namespace 1200"></div>
+<!-- Wrapper -->
+<div>
+    <div data-equalize-height="your-namespace 1200">ele to be equalized 1</div>
+    <div data-equalize-height="your-namespace">ele to be equalized 2</div>
+    <div data-equalize-height="your-namespace">ele to be equalized 3</div>
+</div>
 ```
+
+You don't have to specify the resolution for each element within the same namespace. One time is enough and other elements inside the same namespace will obey it :)
 
 ## Examples
 Let's go back to the first image in this repo. See what's the problem here?
