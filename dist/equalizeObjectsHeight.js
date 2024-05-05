@@ -67,6 +67,14 @@ const equalizeObjectsHeight = () => {
                 if ( (namespace?.breakpoint && window.innerWidth >= parseInt(namespace?.breakpoint)) || !namespace?.breakpoint )
                 {
                     targetHeight = 0;
+
+                    // Reset all script-set heights
+                    namespaceElems.forEach(ele => {
+                        ele.style.minHeight = '';
+                        ele.style.maxHeight = '';
+                        ele.style.height = '';
+                    });
+                    //
                     
                     // Find target height
                     namespaceElems.forEach(ele => {
